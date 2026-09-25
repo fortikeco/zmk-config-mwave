@@ -4,8 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: refil
       url-base: https://github.com/refil
-    - name: KinesisCorporation
-      url-base: https://github.com/kinesiscorporation
+    - name: Fortikeco
+      url-base: https://github.com/fortikeco
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -14,7 +14,7 @@ manifest:
       revision: mwave
       import: app/west.yml
     - name: MWave-zephyr-module
-      remote: KinesisCorporation
+      remote: Fortikeco
       import: config/west.yml
       revision: main
     - name: zmk-settings-reset-bootloader-module
